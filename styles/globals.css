@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0a0f1e;
+  color: #f8fafc;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+@layer utilities {
+  .gold-gradient {
+    background: linear-gradient(135deg, #f59e0b, #f97316);
+  }
+  .btn-glow:hover {
+    box-shadow: 0 0 25px rgba(249, 115, 22, 0.5);
+  }
+}
