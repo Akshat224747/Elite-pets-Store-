@@ -17,7 +17,7 @@ export async function getStaticProps({ params }) {
   return { props: { product } }
 }
 
-const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbyjTCTzTTH1mG8YJI0_7var8hMM_s69Uc8nAwyfYJqaJ0nuGsEiRrXRSnsD4c0oUzaf/exec'
+const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbyuQIWF_M0xwhk3YKN7hngZ0okTSafojo5M5qPFrfDbzBfSdO9yQxzEJVUHpW4PiRso/exec'
 
 export default function ProductDetail({ product }) {
   const [showForm, setShowForm] = useState(false)
