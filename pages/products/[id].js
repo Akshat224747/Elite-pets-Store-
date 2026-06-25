@@ -17,7 +17,7 @@ export async function getStaticProps({ params }) {
   return { props: { product } }
 }
 
-const SCRIPT_URL = 'https://formspree.io/f/mkoljgvl'
+const SCRIPT_URL = 'https://docs.google.com/forms/d/e/1FAIpQLSeQPAxefepF_KW1-HBq3pfHtEW_OFheTaz6KnKKYe5Pc3rZwg/formResponse'
 
 export default function ProductDetail({ product }) {
   const [showForm, setShowForm] = useState(false)
