@@ -23,7 +23,7 @@ export default function ProductDetail({ product }) {
 
   if (!product) return null
 
-  const formUrl = `https://docs.google.com/forms/d/e/1FAIpQLSeQPAxefepF_KW1-HBq3pfHtEW_OFheTaz6KnKKYe5Pc3rZwg/viewform?embedded=true&entry.1326526209=${encodeURIComponent(product.name + ' - ' + selectedSize)}`
+const formUrl = `https://docs.google.com/forms/d/e/1FAIpQLSeQPAxefepF_KW1-HBq3pfHtEW_OFheTaz6KnKKYe5Pc3rZwg/viewform?embedded=true&entry.1326526209=${encodeURIComponent(product.name)}&entry.404750594=${encodeURIComponent(selectedSize)}`  
 
   return (
     <>
