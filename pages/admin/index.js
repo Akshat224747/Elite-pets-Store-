@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { useRouter } from 'next/router'
 import Head from 'next/head'
 
-const ADMIN_PASSWORD = process.env.NEXT_PUBLIC_ADMIN_PASSWORD
+const ADMIN_PASSWORD =  "ElitePets2027"
 
 export default function AdminLogin() {
   const [password, setPassword] = useState('')
