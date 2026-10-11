@@ -5,6 +5,11 @@ export const PRODUCTS = [
     price: 24.99,
     originalPrice: 39.99,
     image: 'https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=80',
+    images: [
+      'https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=80',
+      'https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=600&q=80',
+    ],
+    video: '',
     badge: 'Best Seller',
     badgeColor: '#f59e0b',
     shortDesc: 'Keep your pet cool & comfortable all summer long',
@@ -31,6 +36,11 @@ Perfect for crates, floors, kennels, sofas, and car seats. Non-toxic, bite-resis
     price: 19.99,
     originalPrice: 34.99,
     image: 'https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=600&q=80',
+    images: [
+      'https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=600&q=80',
+      'https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=80',
+    ],
+    video: '',
     badge: 'New Arrival',
     badgeColor: '#10b981',
     shortDesc: 'Hydrate your pet anywhere, anytime — leak-proof & easy',
